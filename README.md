@@ -25,12 +25,18 @@ A simple Fortnightly Pay Calculator spreadsheet for Microsoft Excel I created ab
 * Calculation of any other mandatory Government payments (i.e. Child Support)
 * Any consideration for your actual 
 
-## How to enter times:
+## How to enter Start and Finish Times:
 Enter start and finish times as _decimal_ hours in _24-hour notation_
 For example: 
 * 8am --> 8
 * 9:30pm --> 21.5
 * 12:15am --> 0.25
+
+## How to enter Break Durations:
+Add up all unpaid breaks, and use _decimal_ hour durations.
+For example:
+* 2x Paid 10-minute breaks + 1x 30-minute unpaid break --> 0.5
+* 1x 1-hour unpaid break, + 1x 30-minute unpaid break --> 1.5
 
 ## What if my pay week is calculated based on shifts from Saturday to Friday instead of Monday to Sunday?
 Just change the weekday names. Weekday names are not utilised in any other calculations.
